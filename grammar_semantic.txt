@@ -1,0 +1,35 @@
+﻿P V F 0|                                  
+V T1|
+T1 V1 T1|e|
+V1 T i T2 1|
+T int|string|
+T2 ;|[ n ] ;|
+F T3|
+T3 F1 T3|e|
+F1 def i 1 ( ) { S }|          
+S T4|
+T4 S1 T4|e|
+S1 IS|ACS|WS|CP|
+IS if ( 2 CE ) { S } 3|       
+WS while ( 2 CE ) { S } 3|         
+ACS i T5|
+T5 4 = 5 T6 6|[ T13 ] 4 = 5 T6 6|( ) ; 7|
+T6 VE ;|s 4 ;|   
+AO +|-|
+MO *|/|
+RO <|>|!=|==|
+CE VE RO 5 VE 6|                      
+VE T7 T8|
+T8 AO 5 VE 6 T8|e|                
+T7 T9 T10|
+T10 MO 5 T7 6 T10|e|              
+T9 ( VE )|n 4|i T11 4|              
+T11 [ T13 ]|e|
+CP printf ( T12|
+T12 i , n ) ; 7|s , n ) ; 7|n , n ) ; 7|
+T13 i|n|
+
+
+ 0判断有没有main函数   1申明处理  2判断iw 
+
+ 3回填出口 4压入数据栈 5压入操作符栈 6算结果 7函数调用

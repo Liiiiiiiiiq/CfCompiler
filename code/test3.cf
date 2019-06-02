@@ -1,0 +1,32 @@
+int a;
+int b;
+int c;
+
+
+def test(){
+	a=0;
+	b=1;
+	printf("0+1=",0);
+	c=a+b;
+	printf(c,1);
+	b=167;
+	a=20;
+	printf("167-20=",0);
+	c=b-a;
+	printf(c,1);
+	b=2;
+	a=20;
+	printf("2*20=",0);
+	c=b*a;
+	printf(c,1);
+	b=50;
+	a=2;
+	printf("50/2=",0);
+	c=b/2;
+	printf(c,1);
+}
+
+
+def cfmain(){
+	test();
+}

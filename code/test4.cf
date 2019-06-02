@@ -1,0 +1,33 @@
+int a;
+int b;
+int c;
+int d[5];
+string e;
+string f;
+string g[7];
+
+def heihei(){
+	a=3;
+	b=9;
+	d[1]=0;
+	d[3]=a;
+	d[2]=3;
+	d[4]=d[3];
+	g[a]="S1";
+	g[4]="S2";
+	c=a*d[2]+d[4]/d[a]*b-d[3];
+	printf(c,1);
+	if(a>0){
+		printf("IF a>0",1);
+		a=3;
+		while(a>0){
+			printf("IN While :",0);
+			printf(a,1);
+			a=a-1;
+		}
+	}
+}
+
+def cfmain(){
+	heihei();
+}

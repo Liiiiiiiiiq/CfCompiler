@@ -1,0 +1,55 @@
+int a;
+int b;
+int cc;
+int d[5];
+string e;
+string f;
+string g;
+string h[5];
+
+def tt(){
+	a=0;
+	b=1;
+	cc=2;
+	d[0]=3;
+	d[1]=4;
+	d[a]=9;
+	d[4]=d[a];
+	f="Test IF statement!";
+	g="Test WHILE statement!";
+	h[0]="Test string array !";
+	if(b>0){
+		f="1111 IF";
+		printf(f,1);
+	}
+	if(d[4]!=0){
+		f="22222 IF";
+		printf(f,1);
+		while(d[3]>0){
+			g="IF  -- WHILE !!!";
+			printf(g,1);
+			d[3]=d[3]-1;
+		}
+	}
+	while(cc>0){
+		if(d[3]==0){
+			f="3333 IF";
+			printf(f,1);
+		}
+		printf(g,1);
+		cc=cc-1;
+	}
+	printf("Test printf string !",1);
+	cc=2;
+	printf(cc,1);
+	cc=d[4]/cc+cc+b*d[a]-d[1]+a;
+	cc=a+(b+d[2])*a;
+	printf(cc,0);
+}
+
+
+def cfmain(){
+	e="Hello World!";
+	printf(e,1);
+	tt();
+}

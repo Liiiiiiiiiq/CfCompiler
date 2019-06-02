@@ -1,0 +1,6 @@
+int a;
+
+def cfmain(){
+	printf("Hello World!",1);
+	printf("        ---HackerLi",0);
+}

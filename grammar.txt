@@ -1,0 +1,30 @@
+P V F|                                  
+V T1|e|
+T1 V1 T1|e|
+V1 T i T2|
+T int|string|
+T2 ;|[ n ] ;|
+F T3|
+T3 F1 T3|e|
+F1 def i ( ) { S }|          
+S T4|
+T4 S1 T4|e|
+S1 IS|ACS|WS|CP|
+IS if ( CE ) { S }|       
+WS while ( CE ) { S }|         
+ACS i T5|
+T5 = T6|[ T13 ] = T6|( ) ;|
+T6 VE ;|s ;|   
+AO +|-|
+MO *|/|
+RO <|>|!=|==|
+CE VE RO VE|                      
+VE T7 T8|
+T8 AO VE T8|e|                
+T7 T9 T10|
+T10 MO T7 T10|e|              
+T9 ( VE )|n|i T11|              
+T11 [ T13 ]|e|
+CP printf ( T12|
+T12 i , n ) ;|s , n ) ;|n , n ) ;|
+T13 i|n|
